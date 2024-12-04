@@ -3,7 +3,7 @@
 set -e  # Exit on error
 
 # Source configuration
-source config/config.sh
+source config/default_config.sh
 
 # Start installation
 echo "Starting vLLM installation process..."
@@ -18,16 +18,16 @@ source config/modules.sh
 
 # Run installation steps
 echo "Setting up environment..."
-source scripts/setup_env.sh
+source "${MODULES_DIR}/conda_setup.sh"
 
 echo "Installing PyTorch..."
-source scripts/install_torch.sh
+source "${MODULES_DIR}/pytorch_install.sh"
 
 echo "Installing vLLM..."
-source scripts/install_vllm.sh
+source "${MODULES_DIR}/vllm_install.sh"
 
 echo "Installing Flash Attention..."
-source scripts/install_flash.sh
+source "${MODULES_DIR}/flash_attention_install.sh"
 
 echo "Installation completed successfully!"
 echo "Logs are available in: ${MAIN_LOG}"
