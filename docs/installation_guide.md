@@ -18,7 +18,7 @@ This guide provides detailed instructions for installing vLLM on HPC systems usi
 1. **Prepare the Environment**
    ```bash
    # Clone the repository
-   git clone https://github.com/yourusername/vllm-hpc-installer.git
+   git clone https://github.com/AI-DarwinLabs/vllm-hpc-installer.git
    cd vllm-hpc-installer
    
    # Make the installer executable
@@ -74,7 +74,7 @@ The installer sets up:
 
 If you encounter issues:
 1. Check the logs in `logs/` directory
-2. Consult the [GitHub Issues](https://github.com/yourusername/vllm-hpc-installer/issues) page
+2. Consult the [GitHub Issues](https://github.com/AI-DarwinLabs/vllm-hpc-installer/issues) page
 3. Submit a new issue with:
    - Error messages
    - System information

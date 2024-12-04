@@ -24,7 +24,7 @@ Automated installation script for vLLM on HPC systems with ROCm support. This in
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/vllm-hpc-installer.git
+git clone https://github.com/AI-DarwinLabs/vllm-hpc-installer.git
 cd vllm-hpc-installer
 ```
 
@@ -65,32 +65,8 @@ vllm-hpc-installer/
 
 ## Support
 
-For issues and feature requests, please use the [GitHub Issues](https://github.com/yourusername/vllm-hpc-installer/issues) page.
+For issues and feature requests, please use the [GitHub Issues](https://github.com/AI-DarwinLabs/vllm-hpc-installer/issues) page.
 
 ## Contributing
 
 Contributions are welcome! Please read our [Contributing Guidelines](docs/CONTRIBUTING.md) before submitting pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- vLLM Project Team
-- ROCm/AMD Team
-- Flash Attention developers
-- HPC Community
-
-## Citation
-
-If you use this installer in your research, please cite:
-
-```bibtex
-@software{vllm_hpc_installer,
-  author = {Your Name},
-  title = {vLLM HPC Installer},
-  year = {2024},
-  publisher = {GitHub},
-  url = {https://github.com/yourusername/vllm-hpc-installer}
-}

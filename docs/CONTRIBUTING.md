@@ -12,9 +12,9 @@ We love your input! We want to make contributing to vLLM HPC Installer as easy a
 
 In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
 
-## Report bugs using Github's [issue tracker](https://github.com/yourusername/vllm-hpc-installer/issues)
+## Report bugs using Github's [issue tracker](https://github.com/AI-DarwinLabs/vllm-hpc-installer/issues)
 
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/yourusername/vllm-hpc-installer/issues/new).
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/AI-DarwinLabs/vllm-hpc-installer/issues/new).
 
 ## Write bug reports with detail, background, and sample code
 
